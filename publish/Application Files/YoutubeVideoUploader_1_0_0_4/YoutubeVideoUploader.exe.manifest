@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="YoutubeVideoUploader.exe" version="1.0.0.4" publicKeyToken="b32477c34591e903" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="YoutubeVideoUploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="YoutubeVideoUploader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeVideoUploader.exe" size="1095128">
+      <assemblyIdentity name="YoutubeVideoUploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QC18RJew8scozhTfB0Wyq/ZO71kLYBZ25uo0kYsFz2g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="images\uploader_logo.ico" size="1081406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hhvVYBagfmH2vA6EOjrf+sZMNKUZa9GShhMyrhuGfs8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\uploader_logo.png" size="2614">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5xAHCWveu8xhUlVbD9I9GHbq6udj6/1ul/e7G0t8Kxk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="YoutubeVideoUploader.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WNDOWS-SAVJEG8\john" issuerKeyHash="87aaa15c565b906f8f267e79aa5a3e8e8cc30f95" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2dJlK5Elj9nAgZYYWxdXlSzehvJmXF63jWcMrqEMnzg=</DigestValue></Reference></SignedInfo><SignatureValue>iGpbp0nz5nZd62vkThKszyCalS1p7c6G+w9mksHLPY3TsyJyCWF34Ic/IfZb55p5pkC0AfCwp+Y+G82h2vnNGZLk8rgC/O2nVL4FSdU4N+n4/hAw29wn6C0k8eq6/nB6ifmJef+4ERTL00tKi88PqMTOn63Bs0BaJoYD5mLHzn8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lEV4i7vzA5z0gjzwUaJvZheFAe1jakDd/YfbjDm1QJzlC7vawXYmAtE8t/GHkQuG5AqbZ+ZH2GA+FtLOcuh0JVLNHPgtONj4zahCdZkMJKjBl/x5skLgT0Y9IUydOUOHQnutDn2pBXA5iyAz+r11irqUzu8chUB3Be0sKsJx8Q8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="389f0ca1ae0c678db75e5c66f286de2c9557175b189681c0d98f25912b65d2d9" Description="" Url=""><as:assemblyIdentity name="YoutubeVideoUploader.exe" version="1.0.0.4" publicKeyToken="b32477c34591e903" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WNDOWS-SAVJEG8\john</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Psx9dRJsTzwMmWN8IVgYJaKgBVtZ3hm031Ua0kFSdxY=</DigestValue></Reference></SignedInfo><SignatureValue>Yh11jLBNEWgLQ3Ha+QPIIHixGMOF816TQCcOS2fKMCBNY+QmoLuhkOQpb/mR1jV1xc0OU4vKrzaFsrgMvw9GxZhlqSsTse3v4fq3qjcw/UZX6xoaMWoQu4PKsQ7OWwIedYqSQcnVuTz0vIwEZpG4AdRJ4wS6LJNkJIKFRQgPbOg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lEV4i7vzA5z0gjzwUaJvZheFAe1jakDd/YfbjDm1QJzlC7vawXYmAtE8t/GHkQuG5AqbZ+ZH2GA+FtLOcuh0JVLNHPgtONj4zahCdZkMJKjBl/x5skLgT0Y9IUydOUOHQnutDn2pBXA5iyAz+r11irqUzu8chUB3Be0sKsJx8Q8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQbEMLUrhkLr1MD9BEPKsoHDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAVwBOAEQATwBXAFMALQBTAEEAVgBKAEUARwA4AFwAagBvAGgAbjAeFw0xNjExMjAxMzA3MDRaFw0xNzExMjAxOTA3MDRaMDExLzAtBgNVBAMeJgBXAE4ARABPAFcAUwAtAFMAQQBWAEoARQBHADgAXABqAG8AaABuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCURXiLu/MDnPSCPPBRom9mF4UB7WNqQN39h9uMObVAnOULu9rBdiYC0Ty38YeRC4bkCptn5kfYYD4W0s5y6HQlUs0c+C042PjNqEJ1mQwkqMGX/HmyQuBPRj0hTJ05Q4dCe60OfakFcDmLIDP6vXWKupTO7xyFQHcF7SwqwnHxDwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGHKwm9i76MpwY27+NIDJCvU9nk2w4jx9vElthgHo92c1U5n4pVilpL2rjii1dLY7KS3SEiyLRFK8fBWLuoxTWOWWUBFc3OyFcdJSeYjkA7qxUcniHH1PaNHcR25VLbsi7CC4ocYM0uL8dSOMLAiiCFj3LdH+d+/7gZ+KvDBnWYb</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
